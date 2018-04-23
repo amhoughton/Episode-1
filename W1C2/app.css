@@ -1,0 +1,115 @@
+* {
+  /*border: 1px solid green !important;*/
+}
+
+.page {
+  width: 100%;
+  height: 100%;
+}
+
+.page-content {
+  margin: 5% 20% 20% 20%;
+}
+
+.header {
+  font-family: sans-serif;
+}
+
+.nav {
+  font-size: 20px;
+  text-align: center;
+}
+
+.nav-about-me {
+  font-style: italic;
+  display: inline-block;
+  margin: 3px;
+}
+
+.nav-divider {
+  display: inline-block;
+  margin: 3px;
+}
+
+.nav-portfolio {
+  text-decoration: underline;
+  display: inline-block;
+  margin: 3px;
+}
+
+.about {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.bio {
+  padding: 10px;
+  font-size: 18px;
+  font-family: sans-serif;
+}
+
+.content {
+  padding: 5px 60px 5px 60px;
+}
+
+.content-inner {
+  display: flex;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  display: block;
+  text-align: center;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.picture {
+  width: 200px;
+  display: inline-block;
+  float: right;
+  justify-content: flex-end;
+  margin: 0 0 0 20px;
+}
+
+.img {
+  width: 100%;
+}
+
+.thin-line-top {
+  background-color: black;
+  height: 1px;
+  margin: 10px 0 10px 0;
+}
+
+.thin-line-bottom {
+  background-color: black;
+  height: 1px;
+  margin: 20px 0 10px 0;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+}
+
+.thick-line {
+  background-color: #fa8072;
+  height: 5px;
+  margin: 20px;
+  clear: both;
+}
+
+.social-media {
+  font-family: sans-serif;
+  margin-top: 40px;
+}
