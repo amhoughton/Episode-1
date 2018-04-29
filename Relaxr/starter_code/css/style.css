@@ -1,0 +1,133 @@
+.header {
+    background-image: url("../images/header_bg.jpg");
+    height: 500px;
+    padding: 0 60px 0px 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header_title {
+    padding: 20px 0 80px 60px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.header_description {
+    font-size: 38px;
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 70px;
+    color: white;
+}
+
+.header_button {
+    font-size: 20px;
+    padding: 5px 40px 5px 40px;
+    font-weight: bold;
+}
+
+.header_button-container {
+    text-align: center;
+    padding: 30px 0 30px 0;
+}
+
+.about {
+    height: 420px;
+    padding: 0 0 0px 60px;
+}
+
+.about_title {
+    padding: 50px 0 2px 60px;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.about_description {
+    padding: 10px 0 30px 60px;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 480px;
+    line-height: 30px;
+}
+
+.about_list-item {
+    font-size: 22px;
+    font-family: sans-serif;
+    padding: 0 0 0 120px;
+    list-style: disc inside;
+    width: 400px;
+    line-height: 35px;
+}
+
+.testimony {
+    background-image: url("../images/testimonial_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 280px;
+}
+
+.testimony_quote {
+    color: white;
+    margin: auto;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-style: italic;
+    width: 420px;
+    text-align: center;
+    padding: 45px 0 0 0;
+    line-height: 33px;
+}
+
+.testimony_name {
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.sign-up {
+    background-color: yellow;
+    height: 100px;
+}
+
+.sign-up_button {
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-color: green;
+}
+
+.social-media {
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.social-media_title {
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.social-media_image-1 {
+    padding: 35px 20px 45px 0;
+}
+
+.social-media_image-2 {
+    padding: 35px 20px 45px 0;
+}
+
+.social-media_copyright {
+    font-size: 14px;
+    font-family: sans-serif;
+}
