@@ -1,0 +1,168 @@
+/*******SETUP*******/
+
+body {
+	font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	margin: 0 auto;
+}
+
+#container-wrapper {
+
+}
+
+.container {
+	margin: 0 auto;
+}
+
+
+/*******UI COMPONENTS*******/
+
+p {
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+.button {
+	background-color: #FDF549;
+	width: 100%;
+	font-size: 20px;
+	border-radius: 4px;
+	padding: 10px 20px;
+	box-shadow: 0 3px 0px rgba(201,196,50,1);
+	border:none;
+	text-transform: uppercase;
+	font-family: Impact, 'Source-Sans', Helvetica, sans-serif;
+	cursor: pointer;
+}
+
+.primary {
+	background-color: #FDF549;
+	box-shadow: 0 3px 0px rgba(201,196,50,1);
+}
+
+.secondary {
+	background-color: #C6C6C6;
+	box-shadow: 0 3px 0px rgba(156,156,156,1);
+}
+
+/*******HEADER*******/
+
+header {
+	background: #000000; 
+	padding: 10px 40px;
+	border-bottom: 4px solid #FDF549;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.20);
+}
+
+#logo {
+	display: inline-block;
+	width: 25%;
+	box-sizing: border-box;
+	color: #FDF549;
+	text-align: left;
+	/*display: flex;
+	justify-content: space-between;*/
+}
+
+nav {
+	display: inline-block;
+	width: 75%;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #FDF549;
+}
+
+.top-nav {
+	text-transform: uppercase;
+	font-family: Impact, 'Source-Sans', Helvetica, sans-serif;
+	letter-spacing: 1px;
+}
+
+/*******TAGLINE*******/
+
+#tagline {
+	background-color: #C6C6C6;
+	padding: 5px 20px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.20);
+}
+
+#tagline > h2 {
+	text-align: center;
+	font-style: italic;
+}
+
+.strikethrough {
+	color: #9A9A9A;
+	text-decoration: line-through;
+}
+
+.underline {
+	border-bottom: 2px solid #FDF549;
+}
+
+/*******HERO*******/
+
+#hero-section {
+	background: url(images/coworking.jpg);
+	background-size: cover;
+	height: 500px;
+}
+
+#cta {
+	width:220px;
+	background-color: rgba(256, 256, 256, 0.70);
+	padding: 26px;
+	box-shadow: 0 2px 4px rgba(0,0,0,0.20);
+	float: right;
+	margin: 60px 40px;
+}
+
+
+/*******SECONDARY SECTIONS*******/
+
+#secondary-cta-container {
+	padding: 26px;
+}
+
+.secondary-cta-sections {
+	display: inline-block;
+	width: 33.3%;
+	box-sizing: border-box;
+	padding: 26px;
+	border-right: 1px solid #D8D8D8;
+	vertical-align: top;
+}
+
+.secondary-cta-sections:last-child {
+	display: inline-block;
+	width: 33.3%;
+	box-sizing: border-box;
+	padding: 26px;
+	border-right: none;
+}
+
+/*******FOOTER*******/
+footer {
+	background-color: #000000;
+	color: #ffffff;
+	padding: 20px;
+}
+

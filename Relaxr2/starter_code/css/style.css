@@ -1,0 +1,206 @@
+/*******HEADER*******/
+
+    {
+    /*border: 1px solid red !important;*/
+}
+
+header {
+    background-color: #033048;
+    display: flex;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f0efef;
+}
+
+#main-content {
+    padding-top: 40px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 36px;
+    text-decoration-style: none;
+}
+
+.wrapper {
+    padding: 20px 25% 20px 25%;
+    width: 100%;
+    display: flex;
+}
+
+.navigation {
+    align-self: center;
+    width: 100%;
+}
+
+.navigation ul {
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.navigation ul li {
+    padding: 0 15px 0 10px;
+    height: 100%;
+}
+
+.navigation ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f9e42e;
+}
+
+/*******LEFT-CONTENT*******/
+
+.container {
+    display: flex;
+    padding: 0 25% 0 25%;
+}
+
+.article-excerpt::first-letter {
+    font-size: 55px;
+    float: left;
+}
+
+.container-inner {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    padding: 0 15px 75px 0;
+}
+
+.content-left {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.read-more-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 0 20px 0;
+}
+
+.read-more-link a {
+    color: #033048;
+    font-weight: bold;
+    justify-content: flex-end;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.article-title {
+    color: #033048;
+    font-size: 36px;
+    padding: 30px 55px 25px 0;
+    line-height: 1.2;
+}
+
+.article-excerpt {
+    color: #606161;
+    padding: 20px 0 20px 0;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+/*******RIGHT-CONTENT*******/
+
+.content-right-excerpt {
+    color: #606161;
+    padding: 20px 0 0px 0;
+    font-size: 18px;
+    line-height: 1.3;
+}
+
+.content-right-header {
+    color: #033048;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-right {
+    box-sizing: border-box;
+    vertical-align: top;
+    justify-content: flex-start;
+}
+
+.content-right-inner {
+    float: left;
+}
+
+.content-right-inner ul {
+    padding: 20px 0 20px 0;
+}
+
+.content-right:last-child {
+    margin-right: 0;
+}
+
+.content-right ul li {
+    color: #606161;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.learn-more a {
+    color: #033048;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.ad-unit {
+    padding-top: 35px;
+}
+
+/*******FOOTER*******/
+
+.sign-up {
+    background-color: yellow;
+    height: 90px;
+}
+
+.sign-up-button {
+    font-size: 20px;
+    padding: 10px 40px 10px 40px;
+    font-weight: bold;
+    border-style: none;
+    color: white;
+    background-color: #033048;
+    border-radius: 6px;
+}
+
+.sign-up-button-container {
+    text-align: center;
+    padding: 25px 40px 25px 40px;
+}
+
+.social-media {
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+}
+
+.social-media-title {
+    color: yellow;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 35px;
+}
+
+.social-media-image-1 {
+    padding: 35px 20px 45px 0;
+}
+
+.social-media-image-2 {
+    padding: 35px 20px 45px 0;
+}
+
+.social-media-copyright {
+    font-size: 14px;
+    font-family: sans-serif;
