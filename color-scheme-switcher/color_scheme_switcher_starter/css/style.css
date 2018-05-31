@@ -32,13 +32,13 @@ p {
 }
 
 #grayButton {
-    background: gray;
+    background: #D3D3D3;
 }
 
-#whiteButton {
-    background: white;
+#salmonButton {
+    background: #fa8072;
 }
 
 #blueButton {
-    background: blue;
+    background: #a0d6b4;
 }

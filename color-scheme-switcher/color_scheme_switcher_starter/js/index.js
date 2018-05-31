@@ -1,21 +1,24 @@
-alert("Hello Amanda");
-
-document.getElementById('grayButton').onclick = switchGray;
-document.getElementById('whiteButton').onclick = switchWhite;
-document.getElementById('blueButton').onclick = switchBlue;
+$(document).ready(function() {
+      // put all jquery code here
 
 
-function switchGray() {
-  document.body.style.backgroundColor = 'gray';
-  document.body.style.color = 'white';
-}
 
-function switchWhite() {
-  document.body.style.backgroundColor = 'white';
-  document.body.style.color = 'black';
-}
+      document.getElementById('grayButton').onclick = switchGray;
+      document.getElementById('whiteButton').onclick = switchWhite;
+      document.getElementById('blueButton').onclick = switchBlue;
 
-function switchBlue() {
-  document.body.style.backgroundColor = 'blue';
-  document.body.style.color = 'white';
-}
+
+      function switchGray() {
+        document.body.style.backgroundColor = 'gray';
+        document.body.style.color = 'white';
+      }
+
+      function switchWhite() {
+        document.body.style.backgroundColor = 'white';
+        document.body.style.color = 'black';
+      }
+
+      function switchBlue() {
+        document.body.style.backgroundColor = 'blue';
+        document.body.style.color = 'white';
+      }
